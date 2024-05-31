@@ -1,0 +1,6 @@
+runtime: php81
+service: front-end
+
+handlers:
+  - url: /.*
+    script: auto
